@@ -183,16 +183,16 @@ export default function Home() {
           </div>
         </div>
         <div className="relative">
-          <div className="absolute -inset-6 rounded-3xl blur-2xl bg-[radial-gradient(40%_60%_at_70%_30%,rgba(0,208,255,0.25),transparent),radial-gradient(30%_40%_at_30%_70%,rgba(155,81,224,0.25),transparent)]" />
-          <div className="relative rounded-3xl border border-white/15 bg-white/5 shadow-soft p-6">
-            <div className="aspect-[10/16] rounded-2xl bg-gradient-to-br from-[#0f1220] to-[#121735] grid place-items-center">
-              <div className="text-center">
-                <div className="text-xs uppercase tracking-widest text-white/60">AI Voice • LINE • Web</div>
-                <div className="text-2xl font-semibold mt-2">Demo Preview</div>
-              </div>
-            </div>
-          </div>
-        </div>
+          <div className="absolute -inset-4 rounded-3xl blur-xl bg-[radial-gradient(40%_60%_at_70%_30%,rgba(0,208,255,0.18),transparent),radial-gradient(30%_40%_at_30%_70%,rgba(155,81,224,0.18),transparent)]" />
+          <div className="relative max-w-lg mx-auto rounded-3xl border border-white/15 bg-white/5 shadow-soft p-4 md:p-5">
+            <div className="aspect-[16/10] rounded-2xl bg-gradient-to-br from-[#0f1220] to-[#121735] grid place-items-center">
+            <div className="text-center">
+              <div className="text-[10px] md:text-xs uppercase tracking-widest text-white/60">AI Voice • LINE • Web</div>
+              <div className="text-xl md:text-2xl font-semibold mt-2">Demo Preview</div>
+      </div>
+    </div>
+  </div>
+</div>
       </header>
 
       {/* FEATURES */}
